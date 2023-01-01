@@ -1,2 +1,3 @@
 # Christian's Portfolio Source Code
-All the nessesary files to diplay my portfolio site.
+
+Visit: https://christian-kouts.github.io/ to view site
