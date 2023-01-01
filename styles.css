@@ -1,0 +1,36 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #050A30;
+}
+
+li {
+    display: inline-block;
+    padding-top: 5px;
+    padding-right: 5%;
+    padding-bottom: 5px;
+    /* padding-left: 5%; */
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    margin-top: 70px;
+}
+
+iframe{
+    width: 90%;
+    height: 600px;
+}
+
+/* body { */
+    /* background-color: ; */
+    /* z-index: 5;
+    position: absolute; */
+    /* padding-top: 40px; Adjust the value as needed to account for the height of the header */
+/* } */
