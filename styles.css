@@ -40,12 +40,13 @@ p{
     line-height: 130%;
 }
 
-a{
+.anchs{
     font-family: 'Merriweather', serif;
     width: 95vw;
     max-width: var(--site_width);
     margin-right: auto;
     margin-left: auto;
+    line-height: 130%;
 }
 
 img {
