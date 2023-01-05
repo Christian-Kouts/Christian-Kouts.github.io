@@ -16,7 +16,7 @@ h1{
     width: 92vw;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 30vh;
+    margin-top: 20vh;
     background: var(--emerald_green);
     box-shadow: 0px 0px 1rem 1.5rem var(--emerald_green);
 }
@@ -38,6 +38,14 @@ p{
     margin-right: auto;
     margin-left: auto;
     line-height: 130%;
+}
+
+a{
+    font-family: 'Merriweather', serif;
+    width: 95vw;
+    max-width: var(--site_width);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 img {
