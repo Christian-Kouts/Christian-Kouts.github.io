@@ -14,7 +14,7 @@ h1{
     max-width: var(--site_width);
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20vh;
+    margin-top: 10vh;
     /* background: var(--emerald_green); */
     /* box-shadow: 0px 0px 1rem 1.5rem var(--emerald_green); */
 }
@@ -49,7 +49,15 @@ a:link, a:visited, a:hover, a:active{
     color: white;
 }
 
-img {
+.mini-logo{
+    width: 25px;
+    margin-right: 2px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.img-large {
     width: 92vw;
     max-width: 900px;
     display: block;
