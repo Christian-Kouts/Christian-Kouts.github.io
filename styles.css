@@ -1,52 +1,52 @@
 :root {
-    --emerald_green: #008494;
+    --emerald_green: #666666;
     --site_width: 560px;
 }
   
 body{
-    background: black;
+    background: #07478c;
     color: white;
-    font-size: 1.8rem;
-    overflow: overlay;    /*for scrollbar */
+    font-size: 1.2rem;
 }
 
 h1{
     font-family: 'Major Mono Display', monospace;
     max-width: var(--site_width);
-    width: 92vw;
     margin-right: auto;
     margin-left: auto;
     margin-top: 20vh;
-    background: var(--emerald_green);
-    box-shadow: 0px 0px 1rem 1.5rem var(--emerald_green);
+    /* background: var(--emerald_green); */
+    /* box-shadow: 0px 0px 1rem 1.5rem var(--emerald_green); */
 }
 
 h2{
     font-family: 'Major Mono Display', monospace;
     max-width: var(--site_width);
-    width: 92vw;
     margin-right: auto;
     margin-left: auto;
-    background: var(--emerald_green);
-    box-shadow: 0px 0px 1rem 1.5rem var(--emerald_green);
+    /* background: var(--emerald_green); */
+    /* box-shadow: 0px 0px 1rem 1.5rem var(--emerald_green); */
 }
 
 p{
     font-family: 'Merriweather', serif;
-    width: 95vw;
     max-width: var(--site_width);
     margin-right: auto;
     margin-left: auto;
     line-height: 130%;
+    font-size: 1.5rem;
 }
 
-.anchs{
-    font-family: 'Merriweather', serif;
-    width: 95vw;
+.a-contain{
     max-width: var(--site_width);
     margin-right: auto;
     margin-left: auto;
-    line-height: 130%;
+}
+
+a:link, a:visited, a:hover, a:active{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: white;
 }
 
 img {
@@ -56,8 +56,9 @@ img {
     margin-right: auto;
     margin-left: auto;
     border: solid grey;
-    border-radius: .8em;
-    border-width: .3em;
+    border-radius: .8rem;
+    border-width: .3rem;
+    background-color: black;
 }
 
 figcaption{
@@ -68,11 +69,10 @@ figcaption{
 }
 
 ::-webkit-scrollbar{
-    width: .4em;
-    /* background-color: transparent; */
+    width: .4rem;
 }
 
 ::-webkit-scrollbar-thumb{
-    border-radius: .5em;
+    border-radius: .5rem;
     background: var(--emerald_green);
 }
