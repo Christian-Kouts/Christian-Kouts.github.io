@@ -1,7 +1,12 @@
 body{
     font-family: 'Merriweather', serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: black;
+}
+
+main{
+    margin-top: 30vh;
+    margin-bottom: 25vh;
 }
 
 .text-content{
@@ -10,12 +15,7 @@ body{
     margin-left: auto;
 }
 
-h1{
-    font-family: 'Major Mono Display', monospace;
-    margin-top: 25vh;
-}
-
-h2, h3{
+h1, h2, h3{
     font-family: 'Major Mono Display', monospace;
 }
 
@@ -42,7 +42,7 @@ figcaption{
 }
 
 ::-webkit-scrollbar{
-    width: .4rem;
+    width: .6rem;
 }
 
 ::-webkit-scrollbar-thumb{
